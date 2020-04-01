@@ -10,6 +10,31 @@ public interface FrontendExternalAPI {
     void setCellData(List<Cell>);
 
     /**
+     * If triggered by player move, please call setCellData() first so that the most recent arrangement
+     * of cards can be displayed prior to the game over screen. This function ends the game, progressing to
+     * a "high score" or some other end game screen.
+     *
+     * @param playerOutcomes maps a player integer to their status at the end of a game
+     */
+    void endGame(Map<Integer, Boolean> playerOutcomes, Map<Integer, Integer> playerScores, Map<Integer, Integer> highScores);
+
+    /**
+     * Similar to endGame, but rather than ending game removes a player from the game, with a message indicating
+     * the updated status of that player. For example, in UNO a player may win while other players continue on.
+     * This function allows the controller to signal that a player, player i, has won the game, but the frontend
+     * will not return to the start menu or display high scores, but rather continue operating as it had.
+     *
+     * @param playerOutcomes maps a player's ID number to their Boolean win/lose (true/false) status.
+     *                       If a player's status is unchanged, do not include these player's ID numbers in playerOutcomes.
+     *                       Only include the player's who have either won or lost before the game is ended.
+     *
+     * @param playerScores maps a player's ID number to their Double score. If scoring is not enabled for the current game,
+     *                     the contents of playerScores will be ignored.
+     *
+     */
+    void playerStatusUpdate(Map<Integer, Boolean> playerOutcomes, Map<Integer, Integer> playerScores);
+
+    /**
      * Returns a boolean indicating whether a user has made a change since the Controller's last
      * call to getUserInput().
      */
