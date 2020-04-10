@@ -120,9 +120,8 @@ public class DisplayCell {
             double dy = event.getSceneY() - lastXY.getY();
             on.setTranslateX(on.getTranslateX()+dx);
             on.setTranslateY(on.getTranslateY()+dy);
-            this.getCell().getAllChildren();
-            // TODO: translate all display children as well
-            // Need to associate imageview to displaycell, will also need when attempting to report intersections
+            moveAll();
+
             lastXY = new javafx.geometry.Point2D(event.getSceneX(), event.getSceneY());
             event.consume();
         });
@@ -142,4 +141,17 @@ public class DisplayCell {
         });
     }
 
+    private void moveChildren(double dx, double dy) {
+        for (IOffset dir: this.getAllChildren().keySet()) {
+            DisplayCell childCell = this.getAllChildren().get(dir);
+        }
+    }
+
+    private void moveGroup(DisplayCell childCell,double dx, double dy) {
+        for (Node child:childCell.getGroup().getChildren()){
+            // Problem may by that lastXY dfferent for each node...we'll see
+            child.setTranslateX(child.getTranslateX()+dx);
+            child.setTranslateY(child.getTranslateY()+dy);
+        }
+    }
 }
