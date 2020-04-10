@@ -57,14 +57,13 @@ public class DisplayCell {
         }
         offsetDirToAmount = Map.of(Offset.NONE, new Point2D(0,0), Offset.NORTH, new Point2D(0, -offset), Offset.SOUTH, new Point2D(0,offset), Offset.EAST, new Point2D(offset, 0),Offset.WEST, new Point2D(-offset,0), Offset.NORTHEAST, new Point2D(offset,-offset), Offset.SOUTHEAST, new Point2D(offset,offset), Offset.NORTHWEST, new Point2D(-offset,-offset), Offset.SOUTHWEST, new Point2D(-offset,offset));
 
-        /*Cell childCellNone = (Cell) myCell.getAllChildren().get(Offset.NONE);
-        if (childCellNone.getDeck().peek()==null) {
-            System.out.println("Card in deck returned null");
+        Cell childCellNone = (Cell) myCell.getAllChildren().get(Offset.NONE);
+        if (childCellNone.getDeck().peek()!=null) {
+            System.out.println("There is a real card beneath me that I need to display");
             DisplayCell childDisplayCellNone = new DisplayCell(childCellNone, cardNameToFileName.get(childCellNone.getDeck().peek().getName()), cardNameToFileName.get("faceDown"), location.add(offsetDirToAmount.get(Offset.NONE)), height, width, offset);
             myDisplayChildren.put(Offset.NONE, childDisplayCellNone);
             myGroup.getChildren().add(childDisplayCellNone.getImageView());
         }
-         */
 
         for (IOffset dir: myCell.getAllChildren().keySet()) {
             Cell childCell = (Cell) myCell.getAllChildren().get(dir);
@@ -78,6 +77,7 @@ public class DisplayCell {
     }
 
     public DisplayCell(Cell cell, String faceUp, String faceDown, Point2D location, double height, double width, double offset) {
+
         myCell = cell;
         myFaceDown = new Image(faceDown);
         myFaceUp = new Image(faceUp);
