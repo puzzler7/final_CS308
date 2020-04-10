@@ -120,6 +120,7 @@ public class DisplayCell {
             double dy = event.getSceneY() - lastXY.getY();
             on.setTranslateX(on.getTranslateX()+dx);
             on.setTranslateY(on.getTranslateY()+dy);
+            this.getCell().getAllChildren();
             // TODO: translate all display children as well
             // Need to associate imageview to displaycell, will also need when attempting to report intersections
             lastXY = new javafx.geometry.Point2D(event.getSceneX(), event.getSceneY());
