@@ -38,46 +38,20 @@ public class DisplayCell {
     private DisplayTable.MyClickInterface myClickLambda;
 
     public DisplayCell(DisplayTable.MyDragInterface dragLambda, DisplayTable.MyClickInterface clickLambda, ICell cell, Map<String, String> cardNameToFileName, Pair<NumberBinding, NumberBinding>location, NumberBinding height, NumberBinding width, double offset) {
-        myDragLambda = dragLambda;
-        myClickLambda = clickLambda;
-
-        myCell = cell;
-        myFaceDown = new Image(cardNameToFileName.get("faceDown"));
-        if(myCell.getDeck().peek() != null) {
-            String cardName = myCell.getDeck().peek().getName(); //TODO: ADD TRY CATCH FOR GETTING IMAGE
-            myFaceUp = new Image(cardName + ".png");//cardNameToFileName.get(myCell.getDeck().peek().getName()));
-            if (myCell.getDeck().peek().isFaceUp()) {
-                myImageView = new ImageView(myFaceUp);
-            } else {
-                myImageView = new ImageView(myFaceDown);
-            }
-        } else {
-            myFaceUp = new Image("celloutline.png");
-            myImageView = new ImageView(myFaceUp);
-        }
-
-        myImageView.layoutXProperty().bind(Bindings.divide(myImageView.fitWidthProperty(),-2));
-        myImageView.layoutYProperty().bind(Bindings.divide(myImageView.fitHeightProperty(),-2));
-        myImageView.translateXProperty().bind(location.getKey());
-        myImageView.translateYProperty().bind(location.getValue());
-        myImageView.fitWidthProperty().bind(width);
-        myImageView.fitHeightProperty().bind(height);
-
-        enableDrag(myImageView);
-        myGroup.getChildren().add(myImageView);
+        constructCurrent(dragLambda, clickLambda, cell, cardNameToFileName, location, height, width);
 
         offsetDirToAmount = Map.of(Offset.NONE, new Point2D(0,0), Offset.NORTH, new Point2D(0, -offset), Offset.SOUTH, new Point2D(0,offset), Offset.EAST, new Point2D(offset, 0),Offset.WEST, new Point2D(-offset,0), Offset.NORTHEAST, new Point2D(offset,-offset), Offset.SOUTHEAST, new Point2D(offset,offset), Offset.NORTHWEST, new Point2D(-offset,-offset), Offset.SOUTHWEST, new Point2D(-offset,offset));
 
-        /*Cell childCellNone = (Cell) myCell.getAllChildren().get(Offset.NONE);
+        // Construct Children
+
+        Cell childCellNone = (Cell) myCell.getAllChildren().get(Offset.NONE);
         if (childCellNone.getDeck().peek()!=null) {
             System.out.println("There is a real card beneath me that I need to display");
-            DisplayCell childDisplayCellNone = new DisplayCell(childCellNone, cardNameToFileName.get(childCellNone.getDeck().peek().getName()), cardNameToFileName.get("faceDown"), location.add(offsetDirToAmount.get(Offset.NONE)), height, width, offset);
+            // location.add(offsetDirToAmount.get(Offset.NONE))
+            DisplayCell childDisplayCellNone = new DisplayCell(myDragLambda, myClickLambda, childCellNone, cardNameToFileName, location, height, width);
             myDisplayChildren.put(Offset.NONE, childDisplayCellNone);
             myGroup.getChildren().add(childDisplayCellNone.getImageView());
         }
-
-         */
-
         for (IOffset dir: myCell.getAllChildren().keySet()) {
             Cell childCell = (Cell) myCell.getAllChildren().get(dir);
             if (dir == Offset.NONE) { // && childCell.getDeck().peek() == null
@@ -91,28 +65,40 @@ public class DisplayCell {
         }
     }
 
+    public DisplayCell(DisplayTable.MyDragInterface dragLambda, DisplayTable.MyClickInterface clickLambda, ICell cell, Map<String, String> cardNameToFileName, Pair<NumberBinding, NumberBinding>location, NumberBinding height, NumberBinding width) {
+        constructCurrent(dragLambda, clickLambda, cell, cardNameToFileName, location, height, width);
+    }
 
-    /*public DisplayCell(Cell cell, String faceUp, String faceDown, Point2D location, double height, double width, double offset) {
+    private void constructCurrent(DisplayTable.MyDragInterface dragLambda, DisplayTable.MyClickInterface clickLambda, ICell cell, Map<String, String> cardNameToFileName, Pair<NumberBinding, NumberBinding> location, NumberBinding height, NumberBinding width) {
+        myDragLambda = dragLambda;
+        myClickLambda = clickLambda;
+
         myCell = cell;
-        myFaceDown = new Image(faceDown);
-        myFaceUp = new Image(faceUp);
-
-        if (myCell.getDeck().peek().isFaceUp()) {
-            myImageView = new ImageView(myFaceUp);
+        myFaceDown = new Image(cardNameToFileName.get("faceDown"));
+        if (myCell.getDeck().peek() != null) {
+            String cardName = myCell.getDeck().peek().getName(); //TODO: ADD TRY CATCH FOR GETTING IMAGE
+            myFaceUp = new Image(cardName + ".png");//cardNameToFileName.get(myCell.getDeck().peek().getName()));
+            if (myCell.getDeck().peek().isFaceUp()) {
+                myImageView = new ImageView(myFaceUp);
+            } else {
+                myImageView = new ImageView(myFaceDown);
+            }
         } else {
-            myImageView = new ImageView(myFaceDown);
+            myFaceUp = new Image("celloutline.png");
+            myImageView = new ImageView(myFaceUp);
         }
-        myImageView.setX(location.getX());
-        myImageView.setY(location.getY());
-        myImageView.setFitWidth(width);
-        myImageView.setFitHeight(height);
 
-        myGroup = new Group();
-        myGroup.getChildren().add(myImageView);
+        myImageView.layoutXProperty().bind(Bindings.divide(myImageView.fitWidthProperty(), -2));
+        myImageView.layoutYProperty().bind(Bindings.divide(myImageView.fitHeightProperty(), -2));
+        myImageView.translateXProperty().bind(location.getKey());
+        myImageView.translateYProperty().bind(location.getValue());
+        myImageView.fitWidthProperty().bind(width);
+        myImageView.fitHeightProperty().bind(height);
 
         enableDrag(myImageView);
+        myGroup.getChildren().add(myImageView);
     }
-     */
+
 
     public Map<Offset,DisplayCell> getAllChildren() {
         return myDisplayChildren;
