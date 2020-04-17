@@ -1,9 +1,12 @@
 package ooga.view;
 
+import javafx.beans.binding.Bindings;
 import javafx.beans.value.ChangeListener;
 import javafx.scene.Scene;
 import javafx.scene.layout.BorderPane;
+import javafx.scene.paint.Color;
 import javafx.stage.Stage;
+import javafx.stage.StageStyle;
 import ooga.cardtable.ICell;
 import ooga.cardtable.IMove;
 import ooga.controller.Controller;
@@ -30,6 +33,8 @@ public class View implements ExternalAPI {
 
     private IMove myLatestMove;
     private TriggerMove getMove;
+
+    private BorderPane myRoot;
 
     public View(Controller.GiveMove giveMove){
         myMenu = new RowMenu();
@@ -136,12 +141,14 @@ public class View implements ExternalAPI {
     @Override
     public void setLayout(ILayout layout) {
         myDisplayTable = new DisplayTable(getMove, (Layout) layout, 500);
-        BorderPane root = new BorderPane();
-        root.setCenter(myDisplayTable.getPane());
-        Scene gameScene = new Scene(root,500,500);
+        myRoot = new BorderPane();
+        myRoot.setCenter(myDisplayTable.getPane());
+        Scene gameScene = new Scene(myRoot,500,500);
         gameStage = new Stage();
         gameStage.setScene(gameScene);
         gameStage.show();
+        gameStage.minHeightProperty().bind(Bindings.multiply(myDisplayTable.getPane().widthProperty(),layout.getScreenRatio()));
+        gameStage.minWidthProperty().bind(Bindings.divide(myDisplayTable.getPane().heightProperty(),layout.getScreenRatio()));
     }
 
     public void listenForGameChoice(ChangeListener<String> listener){
