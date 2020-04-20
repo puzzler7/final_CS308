@@ -7,6 +7,8 @@ import javafx.event.EventHandler;
 import javafx.scene.control.Button;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.media.Media;
+import javafx.scene.media.MediaPlayer;
 import javafx.stage.Stage;
 import ooga.cardtable.ICell;
 import ooga.cardtable.IMove;
@@ -17,6 +19,7 @@ import ooga.data.style.IStyle;
 import ooga.view.gamescreen.GameScreen;
 import ooga.view.menu.Menu;
 
+import java.io.File;
 import java.util.Map;
 
 public class View implements ExternalAPI {
@@ -56,6 +59,7 @@ public class View implements ExternalAPI {
         myStage = new Stage();
         myStage.setScene(myMenu.getScene());
         myStage.show();
+
     }
 
     /**
