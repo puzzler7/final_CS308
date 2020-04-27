@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data type="layout">
+    <game>Sudoku</game>
+    <attributes>
+        <players>1</players>
+        <screen_height>100</screen_height>
+        <card_width>5</card_width>
+        <card_height>5</card_height>
+        <face_down_offset>2</face_down_offset>
+        <face_up_offset>4</face_up_offset>
+    </attributes>
+    <cards>
+        <card>D1</card>
+        <card>D2</card>
+        <card>D3</card>
+        <card>D4</card>
+        <card>D5</card>
+        <card>D6</card>
+        <card>D7</card>
+        <card>D8</card>
+        <card>D9</card>
+        <card>faceDown</card>
+    </cards>
+    <card_map>
+        <start>sudoku/</start>
+        <extension>.png</extension>
+    </card_map>
+    <cells>
+        <cell name="one">
+            <x_val>10</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="two">
+            <x_val>20</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="three">
+            <x_val>30</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="four">
+            <x_val>40</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="five">
+            <x_val>50</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="six">
+            <x_val>60</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="seven">
+            <x_val>70</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="eight">
+            <x_val>80</x_val>
+            <y_val>2</y_val>
+        </cell>
+        <cell name="nine">
+            <x_val>90</x_val>
+            <y_val>2</y_val>
+        </cell>
+    </cells>
+</data>
