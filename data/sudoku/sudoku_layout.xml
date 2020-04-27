@@ -14,11 +14,6 @@
         <card>D2</card>
         <card>D3</card>
         <card>D4</card>
-        <card>D5</card>
-        <card>D6</card>
-        <card>D7</card>
-        <card>D8</card>
-        <card>D9</card>
         <card>faceDown</card>
     </cards>
     <card_map>
@@ -42,25 +37,69 @@
             <x_val>40</x_val>
             <y_val>2</y_val>
         </cell>
-        <cell name="five">
-            <x_val>50</x_val>
-            <y_val>2</y_val>
+        <cell name="11">
+            <x_val>10</x_val>
+            <y_val>4</y_val>
         </cell>
-        <cell name="six">
-            <x_val>60</x_val>
-            <y_val>2</y_val>
+        <cell name="12">
+            <x_val>20</x_val>
+            <y_val>4</y_val>
         </cell>
-        <cell name="seven">
-            <x_val>70</x_val>
-            <y_val>2</y_val>
+        <cell name="13">
+            <x_val>30</x_val>
+            <y_val>4</y_val>
         </cell>
-        <cell name="eight">
-            <x_val>80</x_val>
-            <y_val>2</y_val>
+        <cell name="14">
+            <x_val>40</x_val>
+            <y_val>4</y_val>
         </cell>
-        <cell name="nine">
-            <x_val>90</x_val>
-            <y_val>2</y_val>
+        <cell name="21">
+            <x_val>10</x_val>
+            <y_val>6</y_val>
+        </cell>
+        <cell name="22">
+            <x_val>20</x_val>
+            <y_val>6</y_val>
+        </cell>
+        <cell name="23">
+            <x_val>30</x_val>
+            <y_val>6</y_val>
+        </cell>
+        <cell name="24">
+            <x_val>40</x_val>
+            <y_val>6</y_val>
+        </cell>
+        <cell name="31">
+            <x_val>10</x_val>
+            <y_val>8</y_val>
+        </cell>
+        <cell name="32">
+            <x_val>20</x_val>
+            <y_val>8</y_val>
+        </cell>
+        <cell name="33">
+            <x_val>30</x_val>
+            <y_val>8</y_val>
+        </cell>
+        <cell name="34">
+            <x_val>40</x_val>
+            <y_val>8</y_val>
+        </cell>
+        <cell name="41">
+            <x_val>10</x_val>
+            <y_val>10</y_val>
+        </cell>
+        <cell name="42">
+            <x_val>20</x_val>
+            <y_val>10</y_val>
+        </cell>
+        <cell name="43">
+            <x_val>30</x_val>
+            <y_val>10</y_val>
+        </cell>
+        <cell name="44">
+            <x_val>40</x_val>
+            <y_val>10</y_val>
         </cell>
     </cells>
 </data>

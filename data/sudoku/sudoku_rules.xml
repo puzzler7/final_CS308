@@ -31,36 +31,6 @@
             <color>black</color>
             <suit>s</suit>
         </card>
-        <card>
-            <name>D5</name>
-            <value>5</value>
-            <color>black</color>
-            <suit>s</suit>
-        </card>
-        <card>
-            <name>D6</name>
-            <value>6</value>
-            <color>black</color>
-            <suit>s</suit>
-        </card>
-        <card>
-            <name>D7</name>
-            <value>7</value>
-            <color>black</color>
-            <suit>s</suit>
-        </card>
-        <card>
-            <name>D8</name>
-            <value>8</value>
-            <color>black</color>
-            <suit>s</suit>
-        </card>
-        <card>
-            <name>D9</name>
-            <value>9</value>
-            <color>black</color>
-            <suit>s</suit>
-        </card>
     </deck>
     <cell_groups>
         <group category="digits">
@@ -68,63 +38,142 @@
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D1</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
             <cell name="two">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D2</card>
+                    <card>D2,U</card>
                 </init_cards>
             </cell>
             <cell name="three">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D3</card>
+                    <card>D3,U</card>
                 </init_cards>
             </cell>
             <cell name="four">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D4</card>
+                    <card>D4,U</card>
                 </init_cards>
             </cell>
-            <cell name="five">
+        </group>
+        <group category="grid">
+            <cell name="11">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D5</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
-            <cell name="six">
+            <cell name="12">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D6</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
-            <cell name="seven">
+            <cell name="13">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D7</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
-            <cell name="eight">
+            <cell name="14">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D8</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
-            <cell name="nine">
+            <cell name="21">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>**,D9</card>
+                    <card>D2,U</card>
+                </init_cards>
+            </cell>
+            <cell name="22">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D2,U</card>
+                </init_cards>
+            </cell>
+            <cell name="23">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D2,U</card>
+                </init_cards>
+            </cell>
+            <cell name="24">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D2,U</card>
+                </init_cards>
+            </cell>
+            <cell name="31">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D3,U</card>
+                </init_cards>
+            </cell>
+            <cell name="32">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D3,U</card>
+                </init_cards>
+            </cell>
+            <cell name="33">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D3,U</card>
+                </init_cards>
+            </cell>
+            <cell name="34">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D3,U</card>
+                </init_cards>
+            </cell>
+            <cell name="41">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D4,U</card>
+                </init_cards>
+            </cell>
+            <cell name="42">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D4,U</card>
+                </init_cards>
+            </cell>
+            <cell name="43">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D4,U</card>
+                </init_cards>
+            </cell>
+            <cell name="44">
+                <fan>none</fan>
+                <rotation>0</rotation>
+                <init_cards>
+                    <card>D4,U</card>
                 </init_cards>
             </cell>
         </group>
@@ -137,6 +186,58 @@
             </valid_donors>
             <rules>
                 <rule category="digits">
+                    <validation>
+                        <receiver>
+                            <value>=</value>
+                            <color>*</color>
+                            <suit>*</suit>
+                            <num_cards>*</num_cards>
+                            <is_faceup>y</is_faceup>
+                            <name>*</name>
+                        </receiver>
+                        <mover>
+                            <value>=</value>
+                            <color>*</color>
+                            <suit>*</suit>
+                            <num_cards>*</num_cards>
+                            <is_faceup>y</is_faceup>
+                            <name>*</name>
+                        </mover>
+                        <donor>
+                            <value>=</value>
+                            <color>*</color>
+                            <suit>*</suit>
+                            <num_cards>*</num_cards>
+                            <is_faceup>*</is_faceup>
+                            <name>n</name>
+                        </donor>
+                    </validation>
+                    <action>
+                        <receiver_dest>
+                            <destination>r</destination>
+                            <num_cards>none</num_cards>
+                            <shuffle>n</shuffle>
+                            <rotation>0</rotation>
+                            <offset>none</offset>
+                        </receiver_dest>
+                        <mover_dest>
+                            <destination>r</destination>
+                            <num_cards>none</num_cards>
+                            <shuffle>n</shuffle>
+                            <rotation>0</rotation>
+                            <offset>none</offset>
+                        </mover_dest>
+                        <donor_dest>
+                            <destination>r</destination>
+                            <num_cards>1</num_cards>
+                            <shuffle>n</shuffle>
+                            <rotation>0</rotation>
+                            <offset>none</offset>
+                        </donor_dest>
+                        <next_phase phase="play"></next_phase>
+                    </action>
+                </rule>
+                <rule category="grid">
                     <validation>
                         <receiver>
                             <value>=</value>
