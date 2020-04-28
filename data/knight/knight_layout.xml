@@ -3,119 +3,78 @@
   <game>Memory</game>
   <attributes>
     <players>1</players>
-    <screen_height>80</screen_height>
-    <card_width>5</card_width>
-    <card_height>7</card_height>
+    <screen_height>100</screen_height>
+    <card_width>10</card_width>
+    <card_height>10</card_height>
     <face_down_offset>1</face_down_offset>
     <face_up_offset>1</face_up_offset>
   </attributes>
   <cards>
-    <card>AC</card>
-    <card>2C</card>
-    <card>3C</card>
-    <card>4C</card>
-    <card>5C</card>
-    <card>6C</card>
-    <card>7C</card>
-    <card>8C</card>
-    <card>9C</card>
-    <card>0C</card>
-    <card>JC</card>
-    <card>QC</card>
-    <card>KC</card>
-    <card>AD</card>
-    <card>2D</card>
-    <card>3D</card>
-    <card>4D</card>
-    <card>5D</card>
-    <card>6D</card>
-    <card>7D</card>
-    <card>8D</card>
-    <card>9D</card>
-    <card>0D</card>
-    <card>JD</card>
-    <card>QD</card>
-    <card>KD</card>
-    <card>AH</card>
-    <card>2H</card>
-    <card>3H</card>
-    <card>4H</card>
-    <card>5H</card>
-    <card>6H</card>
-    <card>7H</card>
-    <card>8H</card>
-    <card>9H</card>
-    <card>0H</card>
-    <card>JH</card>
-    <card>QH</card>
-    <card>KH</card>
-    <card>AS</card>
-    <card>2S</card>
-    <card>3S</card>
-    <card>4S</card>
-    <card>5S</card>
-    <card>6S</card>
-    <card>7S</card>
-    <card>8S</card>
-    <card>9S</card>
-    <card>0S</card>
-    <card>JS</card>
-    <card>QS</card>
-    <card>KS</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
-    <card>D1</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>DS</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>D0</card>
+    <card>knight</card>
     <card>faceDown</card>
   </cards>
   <card_map>
@@ -123,217 +82,261 @@
     <extension>.png</extension>
   </card_map>
   <cells>
-    <cell name="0">
-      <x_val>7</x_val>
-      <y_val>3</y_val>
+    <cell name="A8">
+      <x_val>8</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="1">
-      <x_val>14</x_val>
-      <y_val>3</y_val>
+    <cell name="B8">
+      <x_val>20</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="2">
-      <x_val>21</x_val>
-      <y_val>3</y_val>
+    <cell name="C8">
+      <x_val>32</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="3">
-      <x_val>28</x_val>
-      <y_val>3</y_val>
+    <cell name="D8">
+      <x_val>44</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="4">
-      <x_val>35</x_val>
-      <y_val>3</y_val>
-    </cell>
-    <cell name="5">
-      <x_val>42</x_val>
-      <y_val>3</y_val>
-    </cell>
-    <cell name="6">
-      <x_val>49</x_val>
-      <y_val>3</y_val>
-    </cell>
-    <cell name="7">
+    <cell name="E8">
       <x_val>56</x_val>
-      <y_val>3</y_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="8">
-      <x_val>63</x_val>
-      <y_val>3</y_val>
+    <cell name="F8">
+      <x_val>68</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="9">
-      <x_val>70</x_val>
-      <y_val>3</y_val>
+    <cell name="G8">
+      <x_val>80</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="10">
-      <x_val>77</x_val>
-      <y_val>3</y_val>
+    <cell name="H8">
+      <x_val>92</x_val>
+      <y_val>8</y_val>
     </cell>
-    <cell name="11">
-      <x_val>84</x_val>
-      <y_val>3</y_val>
+    <cell name="A7">
+      <x_val>20</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="12">
-      <x_val>91</x_val>
-      <y_val>3</y_val>
+    <cell name="B7">
+      <x_val>20</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="13">
-      <x_val>7</x_val>
-      <y_val>15</y_val>
+    <cell name="C7">
+      <x_val>32</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="14">
-      <x_val>14</x_val>
-      <y_val>15</y_val>
+    <cell name="D7">
+      <x_val>44</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="15">
-      <x_val>21</x_val>
-      <y_val>15</y_val>
-    </cell>
-    <cell name="16">
-      <x_val>28</x_val>
-      <y_val>15</y_val>
-    </cell>
-    <cell name="17">
-      <x_val>35</x_val>
-      <y_val>15</y_val>
-    </cell>
-    <cell name="18">
-      <x_val>42</x_val>
-      <y_val>15</y_val>
-    </cell>
-    <cell name="19">
-      <x_val>49</x_val>
-      <y_val>15</y_val>
-    </cell>
-    <cell name="20">
+    <cell name="E7">
       <x_val>56</x_val>
-      <y_val>15</y_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="21">
-      <x_val>63</x_val>
-      <y_val>15</y_val>
+    <cell name="D7">
+      <x_val>68</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="22">
-      <x_val>70</x_val>
-      <y_val>15</y_val>
+    <cell name="G7">
+      <x_val>80</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="23">
-      <x_val>77</x_val>
-      <y_val>15</y_val>
+    <cell name="H7">
+      <x_val>92</x_val>
+      <y_val>20</y_val>
     </cell>
-    <cell name="24">
-      <x_val>84</x_val>
-      <y_val>15</y_val>
+    <cell name="A6">
+      <x_val>8</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="25">
-      <x_val>91</x_val>
-      <y_val>15</y_val>
+    <cell name="B6">
+      <x_val>20</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="26">
-      <x_val>7</x_val>
-      <y_val>27</y_val>
+    <cell name="C6">
+      <x_val>32</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="27">
-      <x_val>14</x_val>
-      <y_val>27</y_val>
+    <cell name="D6">
+      <x_val>44</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="28">
-      <x_val>21</x_val>
-      <y_val>27</y_val>
-    </cell>
-    <cell name="29">
-      <x_val>28</x_val>
-      <y_val>27</y_val>
-    </cell>
-    <cell name="30">
-      <x_val>35</x_val>
-      <y_val>27</y_val>
-    </cell>
-    <cell name="31">
-      <x_val>42</x_val>
-      <y_val>27</y_val>
-    </cell>
-    <cell name="32">
-      <x_val>49</x_val>
-      <y_val>27</y_val>
-    </cell>
-    <cell name="33">
+    <cell name="E6">
       <x_val>56</x_val>
-      <y_val>27</y_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="34">
-      <x_val>63</x_val>
-      <y_val>27</y_val>
+    <cell name="F6">
+      <x_val>68</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="35">
-      <x_val>70</x_val>
-      <y_val>27</y_val>
+    <cell name="G6">
+      <x_val>80</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="36">
-      <x_val>77</x_val>
-      <y_val>27</y_val>
+    <cell name="H6">
+      <x_val>92</x_val>
+      <y_val>32</y_val>
     </cell>
-    <cell name="37">
-      <x_val>84</x_val>
-      <y_val>27</y_val>
+    <cell name="A5">
+      <x_val>8</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="38">
-      <x_val>91</x_val>
-      <y_val>27</y_val>
+    <cell name="B5">
+      <x_val>20</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="39">
-      <x_val>7</x_val>
-      <y_val>39</y_val>
+    <cell name="C5">
+      <x_val>32</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="40">
-      <x_val>14</x_val>
-      <y_val>39</y_val>
+    <cell name="D5">
+      <x_val>44</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="41">
-      <x_val>21</x_val>
-      <y_val>39</y_val>
-    </cell>
-    <cell name="42">
-      <x_val>28</x_val>
-      <y_val>39</y_val>
-    </cell>
-    <cell name="43">
-      <x_val>35</x_val>
-      <y_val>39</y_val>
-    </cell>
-    <cell name="44">
-      <x_val>42</x_val>
-      <y_val>39</y_val>
-    </cell>
-    <cell name="45">
-      <x_val>49</x_val>
-      <y_val>39</y_val>
-    </cell>
-    <cell name="46">
+    <cell name="E5">
       <x_val>56</x_val>
-      <y_val>39</y_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="47">
-      <x_val>63</x_val>
-      <y_val>39</y_val>
+    <cell name="F5">
+      <x_val>68</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="48">
-      <x_val>70</x_val>
-      <y_val>39</y_val>
+    <cell name="G5">
+      <x_val>80</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="49">
-      <x_val>77</x_val>
-      <y_val>39</y_val>
+    <cell name="H5">
+      <x_val>92</x_val>
+      <y_val>44</y_val>
     </cell>
-    <cell name="50">
-      <x_val>84</x_val>
-      <y_val>39</y_val>
+    <cell name="A4">
+      <x_val>8</x_val>
+      <y_val>56</y_val>
     </cell>
-    <cell name="51">
-      <x_val>91</x_val>
-      <y_val>39</y_val>
+    <cell name="B4">
+      <x_val>20</x_val>
+      <y_val>56</y_val>
     </cell>
-    <cell name="52">
-      <x_val>49</x_val>
-      <y_val>51</y_val>
+    <cell name="C4">
+      <x_val>32</x_val>
+      <y_val>56</y_val>
+    </cell>
+    <cell name="D4">
+      <x_val>44</x_val>
+      <y_val>56</y_val>
+    </cell>
+    <cell name="E4">
+      <x_val>56</x_val>
+      <y_val>56</y_val>
+    </cell>
+    <cell name="F4">
+      <x_val>68</x_val>
+      <y_val>56</y_val>
+    </cell>
+    <cell name="G4">
+      <x_val>80</x_val>
+      <y_val>56</y_val>
+    </cell>
+    <cell name="H4">
+      <x_val>92</x_val>
+      <y_val>56</y_val>
+    </cell>
+    <cell name="A3">
+      <x_val>8</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="B3">
+      <x_val>20</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="C3">
+      <x_val>32</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="D3">
+      <x_val>44</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="E3">
+      <x_val>56</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="F3">
+      <x_val>68</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="G3">
+      <x_val>80</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="H3">
+      <x_val>92</x_val>
+      <y_val>68</y_val>
+    </cell>
+    <cell name="A2">
+      <x_val>8</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="B2">
+      <x_val>20</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="C2">
+      <x_val>32</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="D2">
+      <x_val>44</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="E2">
+      <x_val>56</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="F2">
+      <x_val>68</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="G2">
+      <x_val>80</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="H2">
+      <x_val>92</x_val>
+      <y_val>80</y_val>
+    </cell>
+    <cell name="A1">
+      <x_val>8</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="B1">
+      <x_val>20</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="C1">
+      <x_val>32</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="D1">
+      <x_val>44</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="E1">
+      <x_val>56</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="F1">
+      <x_val>68</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="G1">
+      <x_val>80</x_val>
+      <y_val>92</y_val>
+    </cell>
+    <cell name="H1">
+      <x_val>92</x_val>
+      <y_val>92</y_val>
     </cell>
   </cells>
 </data>
