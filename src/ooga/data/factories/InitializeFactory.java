@@ -167,6 +167,8 @@ public class InitializeFactory implements Factory {
    * @param direction the String representing whether the card should be up or down
    */
   private static void setFlip(ICard c, String direction) {
+    System.out.println(c);
+    System.out.println(direction);
     boolean up = c.isFaceUp();
     if (up && direction.equalsIgnoreCase(initializeResources.getString(DOWN))) {
       c.flip();

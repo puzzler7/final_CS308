@@ -6,7 +6,7 @@
     </settings>
     <deck>
         <deck_name>digits</deck_name>
-        <shuffle>y</shuffle>
+        <shuffle>n</shuffle>
         <card>
             <name>D1</name>
             <value>1</value>
@@ -45,135 +45,21 @@
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>D2,U</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
             <cell name="three">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>D3,U</card>
+                    <card>D1,U</card>
                 </init_cards>
             </cell>
             <cell name="four">
                 <fan>none</fan>
                 <rotation>0</rotation>
                 <init_cards>
-                    <card>D4,U</card>
-                </init_cards>
-            </cell>
-        </group>
-        <group category="grid">
-            <cell name="11">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
                     <card>D1,U</card>
-                </init_cards>
-            </cell>
-            <cell name="12">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D1,U</card>
-                </init_cards>
-            </cell>
-            <cell name="13">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D1,U</card>
-                </init_cards>
-            </cell>
-            <cell name="14">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D1,U</card>
-                </init_cards>
-            </cell>
-            <cell name="21">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D2,U</card>
-                </init_cards>
-            </cell>
-            <cell name="22">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D2,U</card>
-                </init_cards>
-            </cell>
-            <cell name="23">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D2,U</card>
-                </init_cards>
-            </cell>
-            <cell name="24">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D2,U</card>
-                </init_cards>
-            </cell>
-            <cell name="31">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D3,U</card>
-                </init_cards>
-            </cell>
-            <cell name="32">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D3,U</card>
-                </init_cards>
-            </cell>
-            <cell name="33">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D3,U</card>
-                </init_cards>
-            </cell>
-            <cell name="34">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D3,U</card>
-                </init_cards>
-            </cell>
-            <cell name="41">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D4,U</card>
-                </init_cards>
-            </cell>
-            <cell name="42">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D4,U</card>
-                </init_cards>
-            </cell>
-            <cell name="43">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D4,U</card>
-                </init_cards>
-            </cell>
-            <cell name="44">
-                <fan>none</fan>
-                <rotation>0</rotation>
-                <init_cards>
-                    <card>D4,U</card>
                 </init_cards>
             </cell>
         </group>
@@ -188,7 +74,7 @@
                 <rule category="digits">
                     <validation>
                         <receiver>
-                            <value>=</value>
+                            <value>0</value>
                             <color>*</color>
                             <suit>*</suit>
                             <num_cards>*</num_cards>
@@ -196,7 +82,7 @@
                             <name>*</name>
                         </receiver>
                         <mover>
-                            <value>=</value>
+                            <value>0</value>
                             <color>*</color>
                             <suit>*</suit>
                             <num_cards>*</num_cards>
@@ -204,43 +90,46 @@
                             <name>*</name>
                         </mover>
                         <donor>
-                            <value>=</value>
+                            <value>0</value>
                             <color>*</color>
                             <suit>*</suit>
                             <num_cards>*</num_cards>
                             <is_faceup>*</is_faceup>
-                            <name>n</name>
+                            <name>*</name>
                         </donor>
                     </validation>
                     <action>
                         <receiver_dest>
                             <destination>r</destination>
-                            <num_cards>none</num_cards>
+                            <num_cards>t</num_cards>
                             <shuffle>n</shuffle>
                             <rotation>0</rotation>
                             <offset>none</offset>
+                            <flip_up>y</flip_up>
                         </receiver_dest>
                         <mover_dest>
                             <destination>r</destination>
-                            <num_cards>none</num_cards>
+                            <num_cards>t</num_cards>
                             <shuffle>n</shuffle>
                             <rotation>0</rotation>
                             <offset>none</offset>
+                            <flip_up>y</flip_up>
                         </mover_dest>
                         <donor_dest>
                             <destination>r</destination>
-                            <num_cards>1</num_cards>
+                            <num_cards>t</num_cards>
                             <shuffle>n</shuffle>
                             <rotation>0</rotation>
                             <offset>none</offset>
+                            <flip_up>y</flip_up>
                         </donor_dest>
-                        <next_phase phase="play"></next_phase>
+                        <next_phase phase="play">10</next_phase>
                     </action>
                 </rule>
                 <rule category="grid">
                     <validation>
                         <receiver>
-                            <value>=</value>
+                            <value>0</value>
                             <color>*</color>
                             <suit>*</suit>
                             <num_cards>*</num_cards>
@@ -248,7 +137,7 @@
                             <name>*</name>
                         </receiver>
                         <mover>
-                            <value>=</value>
+                            <value>0</value>
                             <color>*</color>
                             <suit>*</suit>
                             <num_cards>*</num_cards>
@@ -256,7 +145,7 @@
                             <name>*</name>
                         </mover>
                         <donor>
-                            <value>=</value>
+                            <value>0</value>
                             <color>*</color>
                             <suit>*</suit>
                             <num_cards>*</num_cards>
@@ -271,6 +160,7 @@
                             <shuffle>n</shuffle>
                             <rotation>0</rotation>
                             <offset>none</offset>
+                            <flip_up>y</flip_up>
                         </receiver_dest>
                         <mover_dest>
                             <destination>r</destination>
@@ -278,6 +168,7 @@
                             <shuffle>n</shuffle>
                             <rotation>0</rotation>
                             <offset>none</offset>
+                            <flip_up>y</flip_up>
                         </mover_dest>
                         <donor_dest>
                             <destination>r</destination>
@@ -285,8 +176,9 @@
                             <shuffle>n</shuffle>
                             <rotation>0</rotation>
                             <offset>none</offset>
+                            <flip_up>y</flip_up>
                         </donor_dest>
-                        <next_phase phase="play"></next_phase>
+                        <next_phase phase="play">10</next_phase>
                     </action>
                 </rule>
             </rules>
