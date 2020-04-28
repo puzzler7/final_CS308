@@ -913,7 +913,7 @@
   <cell_groups>
     <group category="all">
       <cell name="A8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="B8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,D</card><card>knight,U,south</card></init_cards></cell>
+      <cell name="B8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,D</card><card>knight,U</card></init_cards></cell>
       <cell name="C8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
       <cell name="D8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
       <cell name="E8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
@@ -992,38 +992,49 @@
         <rule category="all">
           <validation>
             <receiver>
+              <num_cards>*</num_cards>
+              <is_faceup>y</is_faceup>
+            </receiver>
+            <mover>
+              <value>1</value>
+              <color>!</color>
+              <suit>*</suit>
+              <num_cards>*</num_cards>
+              <is_faceup>y</is_faceup>
+            </mover>
+            <donor>
               <value>*</value>
               <color>*</color>
               <suit>*</suit>
               <num_cards>*</num_cards>
-              <is_faceup>y</is_faceup>
-              <name>*</name>
-            </receiver>
-            <mover>
-              <value>1</value>
-              <color>*</color>
-              <suit>*</suit>
-              <num_cards>1</num_cards>
               <is_faceup>*</is_faceup>
               <name>*</name>
-            </mover>
+            </donor>
           </validation>
-          <action>
-            <mover_dest>
-              <destination>r</destination>
-              <num_cards>t</num_cards>
-              <shuffle>n</shuffle>
-              <rotation>0</rotation>
-              <offset>south</offset>
-            </mover_dest>
-            <!--donor_dest>
-              <destination>d</destination>
-              <num_cards>south</num_cards>
-              <shuffle>n</shuffle>
-              <rotation>0</rotation>
-              <offset>preserve</offset>
-              <flip_up>south</flip_up>
-            </donor_dest-->
+        <action>
+          <receiver_dest>
+            <destination>r</destination>
+            <num_cards>none</num_cards>
+            <shuffle>n</shuffle>
+            <rotation>0</rotation>
+            <offset>south</offset>
+          </receiver_dest>
+          <mover_dest>
+            <destination>r</destination>
+            <num_cards>t</num_cards>
+            <shuffle>n</shuffle>
+            <rotation>0</rotation>
+            <offset>south</offset>
+            <flip_up>y</flip_up>
+          </mover_dest>
+          <donor_dest>
+            <destination>d</destination>
+            <num_cards>south</num_cards>
+            <shuffle>n</shuffle>
+            <rotation>0</rotation>
+            <offset>preserve</offset>
+            <flip_up>south</flip_up>
+          </donor_dest>
             <next_phase phase="play">5.0</next_phase>
           </action>
         </rule>
