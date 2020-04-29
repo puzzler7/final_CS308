@@ -164,6 +164,8 @@ public class DisplayTable {
 
   private void clearDisplayCell(DisplayCell dc) {
     myDisplayCellData.remove(dc);
+    System.out.println(dc);
+    System.out.println(dc.getCell());
     if (dc.getImageView() == null) {
       // do nothing
     } else {

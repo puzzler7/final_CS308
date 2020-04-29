@@ -912,73 +912,73 @@
   </deck>
   <cell_groups>
     <group category="all">
-      <cell name="A8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="B8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,D</card><card>knight,U</card></init_cards></cell>
-      <cell name="C8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="D8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="E8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="F8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="G8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="H8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="A7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="B7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="C7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="D7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="E7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="F7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="G7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="H7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
+      <cell name="A8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="B8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,D,none</card><card>knight,U</card></init_cards></cell>
+      <cell name="C8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="D8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="E8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="F8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="G8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="H8"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="A7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="B7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="C7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="D7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="E7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="F7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="G7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="H7"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
 
-      <cell name="A6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="B6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="C6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="D6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="E6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="F6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="G6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="H6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="A5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="B5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="C5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="D5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="E5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="F5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="G5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="H5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
+      <cell name="A6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="B6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="C6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="D6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="E6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="F6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="G6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="H6"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="A5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="B5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="C5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="D5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="E5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="F5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="G5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="H5"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
 
-      <cell name="A4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="B4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="C4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="D4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="E4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="F4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="G4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="H4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="A3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="B3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="C3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="D3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="E3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="F3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="G3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="H3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
+      <cell name="A4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="B4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="C4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="D4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="E4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="F4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="G4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="H4"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="A3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="B3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="C3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="D3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="E3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="F3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="G3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="H3"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
 
-      <cell name="A2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="B2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="C2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="D2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="E2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="F2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="G2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="H2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="A1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="B1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="C1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="D1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="E1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="F1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
-      <cell name="G1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U</card></init_cards></cell>
-      <cell name="H1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U</card></init_cards></cell>
+      <cell name="A2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="B2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="C2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="D2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="E2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="F2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="G2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="H2"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="A1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="B1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="C1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="D1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="E1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="F1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
+      <cell name="G1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>DS,U,none</card></init_cards></cell>
+      <cell name="H1"><fan>south</fan><rotation>0</rotation><init_cards><card>D0,U,none</card><card>blank,U,none</card></init_cards></cell>
 
     </group>
   </cell_groups>
@@ -1013,28 +1013,23 @@
           </validation>
         <action>
           <receiver_dest>
-            <destination>r</destination>
-            <num_cards>none</num_cards>
-            <shuffle>n</shuffle>
-            <rotation>0</rotation>
-            <offset>south</offset>
           </receiver_dest>
           <mover_dest>
             <destination>r</destination>
-            <num_cards>t</num_cards>
+            <num_cards>1</num_cards>
             <shuffle>n</shuffle>
             <rotation>0</rotation>
             <offset>south</offset>
             <flip_up>y</flip_up>
           </mover_dest>
-          <donor_dest>
+          <!--donor_dest>
             <destination>d</destination>
-            <num_cards>south</num_cards>
+            <num_cards>none</num_cards>
             <shuffle>n</shuffle>
             <rotation>0</rotation>
             <offset>preserve</offset>
-            <flip_up>south</flip_up>
-          </donor_dest>
+            <flip_up>none</flip_up>
+          </donor_dest-->
             <next_phase phase="play">5.0</next_phase>
           </action>
         </rule>
