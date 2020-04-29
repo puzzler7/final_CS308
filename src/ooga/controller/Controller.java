@@ -114,7 +114,6 @@ public class Controller extends Application {
             .equals(myCurrentCells.get(i))) {
           myChangedCells.put(i, myCurrentCells.get(i));
           myPreviousCells.remove(i);
-          System.out.println("a new changed cell" + myChangedCells.get(i));
         }
       }
       processInvalidMove(move);
