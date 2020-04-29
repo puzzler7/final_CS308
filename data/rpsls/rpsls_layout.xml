@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <data type="layout">
-    <game>Memory</game>
+    <game>rpsls</game>
     <attributes>
         <players>1</players>
         <screen_height>100</screen_height>
@@ -12,19 +12,31 @@
     <cards>
         <card>rock</card>
         <card>rock</card>
-        <card>paper</card>
-        <card>paper</card>
-        <card>scissors</card>
-        <card>scissors</card>
+        <card>rock</card>
+        <card>rock</card>
         <card>rock</card>
         <card>paper</card>
-        <card>scissors</card>
-        <card>rock</card>
+        <card>paper</card>
+        <card>paper</card>
+        <card>paper</card>
         <card>paper</card>
         <card>scissors</card>
-        <card>rock</card>
-        <card>paper</card>
         <card>scissors</card>
+        <card>scissors</card>
+        <card>scissors</card>
+        <card>scissors</card>
+        <card>lizard</card>
+        <card>lizard</card>
+        <card>lizard</card>
+        <card>lizard</card>
+        <card>lizard</card>
+        <card>spock</card>
+        <card>spock</card>
+        <card>spock</card>
+        <card>spock</card>
+        <card>spock</card>
+        <card>D0</card>
+        <card>D0</card>
         <card>D0</card>
         <card>D0</card>
         <card>D0</card>
@@ -48,8 +60,16 @@
             <x_val>20</x_val>
             <y_val>65</y_val>
         </cell>
+        <cell name="playerlc">
+            <x_val>35</x_val>
+            <y_val>65</y_val>
+        </cell>
         <cell name="playerc">
             <x_val>50</x_val>
+            <y_val>65</y_val>
+        </cell>
+        <cell name="playerrc">
+            <x_val>65</x_val>
             <y_val>65</y_val>
         </cell>
         <cell name="playerr">
