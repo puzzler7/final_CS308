@@ -4,8 +4,8 @@
   <attributes>
     <players>1</players>
     <screen_height>120</screen_height>
-    <card_width>8</card_width>
-    <card_height>8</card_height>
+    <card_width>6</card_width>
+    <card_height>6</card_height>
     <face_down_offset>2</face_down_offset>
     <face_up_offset>2</face_up_offset>
   </attributes>
