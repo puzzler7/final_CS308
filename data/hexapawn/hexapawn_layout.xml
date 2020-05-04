@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<data type="layout">
+  <game>Percolation</game>
+  <attributes>
+    <players>1</players>
+    <screen_height>100</screen_height>
+    <card_width>20</card_width>
+    <card_height>20</card_height>
+    <face_down_offset>1</face_down_offset>
+    <face_up_offset>1</face_up_offset>
+  </attributes>
+  <cards>
+    <card>AS</card>
+    <card>AS</card>
+    <card>AS</card>
+    <card>AH</card>
+    <card>AH</card>
+    <card>AH</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>D1</card>
+    <card>faceDown</card>
+  </cards>
+  <card_map>
+    <start>solitaire/</start>
+    <extension>.png</extension>
+  </card_map>
+  <cells>
+    <cell name="0"><x_val>25</x_val><y_val>5</y_val></cell>
+    <cell name="1"><x_val>50</x_val><y_val>5</y_val></cell>
+    <cell name="2"><x_val>75</x_val><y_val>5</y_val></cell>
+    <cell name="3"><x_val>25</x_val><y_val>30</y_val></cell>
+    <cell name="4"><x_val>50</x_val><y_val>30</y_val></cell>
+    <cell name="5"><x_val>75</x_val><y_val>30</y_val></cell>
+    <cell name="6"><x_val>25</x_val><y_val>55</y_val></cell>
+    <cell name="7"><x_val>50</x_val><y_val>55</y_val></cell>
+    <cell name="8"><x_val>75</x_val><y_val>55</y_val></cell>
+  </cells>
+</data>
